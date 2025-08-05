@@ -11,38 +11,52 @@
     
     <img src="shinigami.jpg" alt="Shinigami Logo" width="150" style="float: left;">
     
-    <img src="quincy.jpg" alt="Quincy Logo" width="150" style="float: right;">
+    <img src="quincy.jpg" alt="Quincy Logo" width="85" style="float: right;">
     
-    <p>Shinigami in "Bleach" are spiritual beings responsible for maintaining the balance between the human world and the afterlife. They guide souls to the Soul Society and combat evil spirits known as Hollows.<br><br> Quincy are humans of high spiritual energy who long ago learned to use the Reishi particles around them as weapons to ward off the Hollow’s frequent attacks, which were lured by their high Reiatsu.
+    <p>Shinigami in "Bleach" are spiritual beings responsible for maintaining the balance between the human world and the afterlife. They guide souls to the Soul Society and combat evil spirits known as Hollows.<br><br> Quincy are humans of high spiritual energy who long ago learned to use the Reishi particles around them as weapons to ward off the Hollow’s frequent attacks, which were lured by their high Reiatsu.</p><br>
     
-</p>
+    <video controls>
+        <source src="https://vt.tiktok.com/ZSS946CUk/" type="video/mp4">
+    </video>
 <hr>
     <br><br><br>
+    
+    <form action="index.php" method="POST">
+
     <label for="name">Name:</label>
-    <input type="text" id="name" name="Name" value="Aizen">
+    <input type="text" id="name" name="name" value="Aizen">
     <br>
+
     <label for="propaganda">Your Propaganda</label>
     <select id="shinagami" name="shinagami">
         <option value="quincy">Quincy</option>
-        <option value="quincy">Shinigami</option><br>
+        <option value="shinigami">Shinigami</option><br>
     </select>
     <br>
+
     <label for="age">Age of Applicant:</label>
-    <input type="text" id="age" name="age" value="0">
+    <input type="number" id="age" name="age" value="0">
         <br>
+
     <label for="originate">Originate:</label>
     <input type="text" id="name" name="originate" maxlength="20">
         <br>
+
     <label for="captain">Captain Name:</label>
     <input type="text" id="captain" name="captain" value="Yamamoto/Yhwach" disabled>
         <br>
+
     <label for="propaganda">Propaganda:</label>
     <input type="text" id="propaganda" name="propaganda" autocomplete="on">
         <br>
+
     <label for="contact">Our Contact NO.:</label>
     <input type="text" id="contact" name="contact" value="9824-736-8475" readonly>
         <br>
-    <input type="submit">
-    </select>
+
+    <input type="submit" style="background-color: lime;">
+
+    </form>
+
 </body>
 </html>
